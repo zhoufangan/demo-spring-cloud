@@ -1,16 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>demo-spring-cloud</artifactId>
+        <artifactId>unit-02-spring-cloud-eureka</artifactId>
         <groupId>com.zhoufa</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>unit-01-spring-boot</artifactId>
+    <artifactId>eureka-server</artifactId>
     <packaging>jar</packaging>
 
-    <name>unit-01-spring-boot</name>
+    <name>eureka-server</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -18,14 +18,17 @@
     </properties>
 
     <dependencies>
-        <!-- 节点监控 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
+        <!-- 配置上spring-boot-starter-web 就异常了, why? -->
+        <!--
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka-server</artifactId>
+            <version>1.3.0.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -38,6 +41,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-
 </project>
