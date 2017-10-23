@@ -16,6 +16,8 @@
     <url>http://maven.apache.org</url>
     <modules>
         <module>eureka-server</module>
+        <module>micro-service-provider</module>
+        <module>micro-service-consumer</module>
     </modules>
 
     <properties>
