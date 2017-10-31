@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>demo-spring-cloud</artifactId>
+        <groupId>com.zhoufa</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>unit-06-spring-cloud-feign</artifactId>
+    <packaging>pom</packaging>
+
+    <name>unin-06-spring-cloud-feign</name>
+    <url>http://maven.apache.org</url>
+    <modules>
+        <module>unit-06-eureka-server</module>
+        <module>unit-06-producer</module>
+        <module>unit-06-consumer</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    
+</project>

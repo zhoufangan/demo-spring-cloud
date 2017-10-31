@@ -9,6 +9,9 @@
     <modules>
         <module>unit-01-spring-boot</module>
         <module>unit-02-spring-cloud-eureka</module>
+        <module>unit-03-spring-cloud-ribbon</module>
+        <module>unit-06-spring-cloud-feign</module>
+        <module>unit-05-spring-cloud-hystrix</module>
     </modules>
     <packaging>pom</packaging>
 
