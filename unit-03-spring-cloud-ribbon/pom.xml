@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>demo-spring-cloud</artifactId>
@@ -11,11 +9,16 @@
 
     <artifactId>unit-03-spring-cloud-ribbon</artifactId>
     <packaging>pom</packaging>
+
+    <name>unit-03-spring-cloud-ribbon</name>
+    <url>http://maven.apache.org</url>
     <modules>
-        <module>register-center-eureka</module>
-        <module>producer</module>
-        <module>consumer-ribbon</module>
+        <module>unit-03-eureka-server</module>
+        <module>unit-03-micro-service-provider</module>
+        <module>unit-03-micro-service-consumer-ribbon</module>
     </modules>
 
-
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 </project>

@@ -1,7 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>demo-spring-cloud</artifactId>
         <groupId>com.zhoufa</groupId>
@@ -15,13 +13,12 @@
     <name>unit-02-spring-cloud-eureka</name>
     <url>http://maven.apache.org</url>
     <modules>
-        <module>eureka-server</module>
-        <module>micro-service-provider</module>
-        <module>micro-service-consumer</module>
+        <module>unit-02-eureka-server</module>
+        <module>unit-02-micro-service-provider</module>
+        <module>unit-02-micro-service-consumer</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
 </project>

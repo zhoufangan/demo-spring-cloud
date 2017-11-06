@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: unit-04-micro-service-provider
+  profiles:
+    active: win
+
+# 服务器配置
+server:
+  port: 9090
+  context-path: /${spring.application.name}/${spring.profiles.active}/
+
+# eureka 配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka/
+
+# 日志配置
+logging:
+  file: ../logs/${spring.application.name}.log
+

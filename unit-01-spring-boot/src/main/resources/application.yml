@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: unit-01-spring-boot
+  profiles:
+    active: win
+
+server:
+  port: 8080
+
+logging:
+  file: ../logs/${spring.application.name}.log

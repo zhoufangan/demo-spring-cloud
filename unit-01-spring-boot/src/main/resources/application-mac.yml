@@ -1,0 +1,2 @@
+server:
+  context-path: /unit-01-spring-boot/mac/
