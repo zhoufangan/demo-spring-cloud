@@ -1,6 +1,6 @@
 package com.zhoufa;
 
-import com.zhoufa.model.Person;
+import com.zhoufa.ribbon.Person;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,27 +1,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>demo-spring-cloud</artifactId>
+        <artifactId>unit-05-spring-cloud-hystrix</artifactId>
         <groupId>com.zhoufa</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>unit-05-spring-cloud-hystrix</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>unit-05-micro-service-definition</artifactId>
+    <packaging>jar</packaging>
 
-    <name>unit-05-spring-cloud-hystrix</name>
+    <name>unit-05-micro-service-definition</name>
     <url>http://maven.apache.org</url>
-    <modules>
-        <module>unit-05-eureka-server</module>
-        <module>unit-05-micro-service-consumer-ribbon-hystrix</module>
-        <module>unit-05-micro-service-consumer-feign-hystrix</module>
-        <module>unit-05-micro-service-provider</module>
-        <module>unit-05-micro-service-definition</module>
-    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
 </project>

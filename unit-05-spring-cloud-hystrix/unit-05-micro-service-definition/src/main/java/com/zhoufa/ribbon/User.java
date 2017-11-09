@@ -1,9 +1,9 @@
-package com.zhoufa.model;
+package com.zhoufa.ribbon;
 
 /**
  * @author Created by zhoufangan on 2017/11/6.
  */
-public class Person {
+public class User {
 
     private String name;
     private int gender;
