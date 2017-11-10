@@ -22,10 +22,7 @@ public class UserController {
             @RequestParam(required = false) String name,
             @RequestParam(required = false) int gender,
             @RequestParam(required = false) int age) {
-        User user = new User();
-        user.setName(name);
-        user.setGender(gender);
-        user.setAge(age);
+        User user = new User(name, gender, age);
         return userRibbonClient.add(user);
     }
 }

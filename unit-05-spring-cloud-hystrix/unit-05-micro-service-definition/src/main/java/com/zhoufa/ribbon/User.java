@@ -9,6 +9,16 @@ public class User {
     private int gender;
     private int age;
 
+    public User() {
+
+    }
+
+    public User(String name, int gender, int age) {
+        this.name = name;
+        this.gender = gender;
+        this.age = age;
+    }
+
     public String getName() {
         return name;
     }
