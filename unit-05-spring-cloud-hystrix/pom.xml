@@ -16,9 +16,8 @@
         <module>unit-05-eureka-server</module>
         <module>unit-05-micro-service-consumer-ribbon-hystrix</module>
         <module>unit-05-micro-service-consumer-feign-hystrix</module>
-        <module>unit-05-micro-service-provider</module>
-        <module>unit-05-micro-service-definition</module>
         <module>unit-05-micro-service-consumer-hystrix-dashboard</module>
+        <module>unit-05-micro-service-provider</module>
     </modules>
 
     <properties>

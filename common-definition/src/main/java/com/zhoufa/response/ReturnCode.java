@@ -1,4 +1,4 @@
-package com.zhoufa.common;
+package com.zhoufa.response;
 
 /**
  * @author Created by zhoufangan on 2017/11/9.

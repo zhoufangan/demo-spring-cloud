@@ -12,6 +12,12 @@
 
     <name>unit-06-spring-cloud-zuul</name>
     <url>http://maven.apache.org</url>
+    <modules>
+        <module>unit-06-eureka-server</module>
+        <module>unit-06-micro-service-provider</module>
+        <module>unit-06-micro-service-consumer</module>
+        <module>unit-06-zuul-servant</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

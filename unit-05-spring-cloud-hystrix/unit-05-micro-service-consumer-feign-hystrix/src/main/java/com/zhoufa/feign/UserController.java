@@ -1,7 +1,7 @@
 package com.zhoufa.feign;
 
-import com.zhoufa.common.ResultModel;
-import com.zhoufa.ribbon.User;
+import com.zhoufa.model.User;
+import com.zhoufa.response.ResultModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

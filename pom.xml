@@ -17,6 +17,7 @@
         <module>unit-08-spring-cloud-config-center</module>
         <module>unit-09-spring-cloud-bus</module>
         <module>unit-10-spring-cloud-sleuth</module>
+        <module>common-definition</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -53,6 +54,12 @@
 
             <!-- spring-boot and cloud -->
 
+            <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-zuul -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-zuul</artifactId>
+                <version>1.3.5.RELEASE</version>
+            </dependency>
             <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-actuator -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>

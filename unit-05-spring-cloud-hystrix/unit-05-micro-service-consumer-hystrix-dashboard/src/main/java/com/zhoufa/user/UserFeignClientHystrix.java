@@ -1,8 +1,8 @@
 package com.zhoufa.user;
 
-import com.zhoufa.common.ResultModel;
-import com.zhoufa.common.ReturnCode;
-import com.zhoufa.ribbon.User;
+import com.zhoufa.model.User;
+import com.zhoufa.response.ResultModel;
+import com.zhoufa.response.ReturnCode;
 import org.springframework.stereotype.Component;
 
 /**

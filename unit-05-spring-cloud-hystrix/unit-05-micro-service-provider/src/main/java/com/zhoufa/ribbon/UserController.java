@@ -1,6 +1,7 @@
 package com.zhoufa.ribbon;
 
-import com.zhoufa.common.ResultModel;
+import com.zhoufa.model.User;
+import com.zhoufa.response.ResultModel;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

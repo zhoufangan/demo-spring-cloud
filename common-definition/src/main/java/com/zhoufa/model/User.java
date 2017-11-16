@@ -1,4 +1,4 @@
-package com.zhoufa.ribbon;
+package com.zhoufa.model;
 
 /**
  * @author Created by zhoufangan on 2017/11/6.

@@ -1,9 +1,9 @@
 package com.zhoufa.user;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-import com.zhoufa.common.ResultModel;
-import com.zhoufa.common.ReturnCode;
-import com.zhoufa.ribbon.User;
+import com.zhoufa.model.User;
+import com.zhoufa.response.ResultModel;
+import com.zhoufa.response.ReturnCode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
